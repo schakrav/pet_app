@@ -18,7 +18,6 @@ Feature: Home Page
 			When I go to the contact page
 			Then I should see "Contact Us"
 
-
 		Scenario: Privacypage
 			When I go to the privacy page
 			Then I should see "Our Privacy Policy"
