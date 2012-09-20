@@ -3,7 +3,7 @@ Qats::Application.routes.draw do
 
   resources :owners
 
-   root :to => 'pages#home'
+   root :to => 'owners#new'
 
 match '/about', :to => 'pages#about'
 match '/contact', :to => 'pages#contact'
