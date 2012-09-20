@@ -18,7 +18,5 @@ When /^I click the "(.*?)" button$/ do |buttonname|
   click_button buttonname
 end
 
-Then /^I should see “(\d+)”$/ do |value|
-  page.should have_content value
-end
+
 

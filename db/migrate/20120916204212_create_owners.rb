@@ -8,7 +8,7 @@ class CreateOwners < ActiveRecord::Migration
       t.string :country
       t.string :email
       t.string :phone
-      t.Boolean :active
+      t.boolean :active
 
       t.timestamps
     end

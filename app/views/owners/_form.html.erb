@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :country %><br />
-    <%= f.text_field :country %>
+    <%= f.select(:country, Owner::COUNTRIES) %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
@@ -41,7 +41,7 @@
   </div>
   <div class="field">
     <%= f.label :active %><br />
-    <%= f.text_field :active %>
+    <%= f.check_box :active %>
   </div>
   <div class="actions">
     <%= f.submit %>
